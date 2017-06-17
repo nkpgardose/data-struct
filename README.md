@@ -1,7 +1,7 @@
 # Data Struct
 > List of data struct codes
 
-## Intall
+## Install
 
 ### Clone this repository
 
