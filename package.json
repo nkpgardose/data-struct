@@ -4,16 +4,24 @@
   "description": "A list data-struct code",
   "main": "index.js",
   "scripts": {
-    "test": "ava"
+    "test": "xo && ava"
   },
   "ava": {
-    "require": ["babel-register"],
+    "require": [
+      "babel-register"
+    ],
     "files": [
-      "./**/*.spec.js"
+      "./**/*.test.js"
     ]
   },
+  "xo": {
+    "semicolon": false,
+    "space": 2
+  },
   "babel": {
-    "presets": ["@ava/stage-4"]
+    "presets": [
+      "@ava/stage-4"
+    ]
   },
   "repository": {
     "type": "git",
@@ -28,5 +36,8 @@
   "dependencies": {
     "ava": "^0.19.1",
     "babel-register": "^6.24.1"
+  },
+  "devDependencies": {
+    "xo": "^0.18.2"
   }
 }

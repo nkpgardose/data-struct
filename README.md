@@ -22,7 +22,7 @@ To run the specs
 ```sh
 $ cd data-struct
 $ npm install
-$ ava # Run spec with sample data to check code behavior
+$ npm test # Run spec with sample data to check code behavior
 ```
 
 ## Want to Contribute?
