@@ -11,7 +11,7 @@
       "babel-register"
     ],
     "files": [
-      "./**/*.test.js"
+      "**/*.test.js"
     ]
   },
   "xo": {

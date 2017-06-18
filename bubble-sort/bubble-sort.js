@@ -1,8 +1,8 @@
 const bubblesort = (list, cmp) => {
+  const maxlen = list.length
   const compare = cmp || ((a, b) => {
     return (a - b)
   })
-  const maxlen = list.length
   let count = 0
   let isSwap = true
   let temp
